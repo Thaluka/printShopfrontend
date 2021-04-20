@@ -10,7 +10,8 @@ import Home from './Pages/Home';
 import Service from './Pages/Service';
 import Technology from './Pages/Technology';
 import About from './Pages/About';
-import Contact from './Pages/Contact'
+import Contact from './Pages/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
               </Route>
             </Switch>
           </main>
+          <Footer/>
       </Router>
     </div>
   )
